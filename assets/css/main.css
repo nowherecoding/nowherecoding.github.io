@@ -1,0 +1,42 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  outline: 0;
+}
+
+.wrapper .main {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+  pointer-events: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+}
+
+@media (min-width: 768px) {
+  .wrapper .main {
+    margin: 1.75rem auto;
+    min-height: calc(100% - (1.75rem * 2));
+  }
+}
+
+.wrapper .content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-clip: padding-box;
+  outline: 0;
+  padding: 1rem;
+  font-size: 4vw;
+}

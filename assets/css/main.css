@@ -1,3 +1,17 @@
+body {
+    font-size: 1.0625rem;
+    font-weight: 300;
+}
+
+a {
+    color:#28a745;
+}
+
+a:hover, a:focus {
+    color:#000000;
+	text-decoration: none;
+}
+
 .wrapper {
   position: absolute;
   top: 0;
@@ -8,7 +22,7 @@
   outline: 0;
 }
 
-.wrapper .main {
+.main {
   position: relative;
   width: auto;
   margin: 0.5rem;
@@ -21,13 +35,13 @@
 }
 
 @media (min-width: 768px) {
-  .wrapper .main {
+  .main {
     margin: 1.75rem auto;
     min-height: calc(100% - (1.75rem * 2));
   }
 }
 
-.wrapper .content {
+.content {
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -38,5 +52,9 @@
   background-clip: padding-box;
   outline: 0;
   padding: 1rem;
-  font-size: 4vw;
+}
+
+.content .title {
+  font-size: 3vw;
+	
 }

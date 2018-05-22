@@ -45,6 +45,9 @@ blockquote {
     .anchor {
         padding-top: 75px;
     }
+	.license {
+		text-align: right;
+	}
 }
 
 #goto-top {

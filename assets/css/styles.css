@@ -4,6 +4,7 @@
 body {
     font-size: 1.0625rem;
     font-weight: 300;
+	background: url('../img/bg.png') #fdfdfd;
 }
 
 a {
